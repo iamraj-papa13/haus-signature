@@ -334,4 +334,19 @@ img { max-width: 100%; height: auto; display: block; }
     .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
     .hero-cta { flex-direction: row; }
     .about-image img { height: 500px; }
+}.nav-links {
+    display: none !important;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 28px;
+    height: 1px;
+    background: #c9a96e;
 }
